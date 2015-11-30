@@ -1,3 +1,5 @@
+[ ![Codeship Status for chrisdostert/guard-clauses-for-java](https://codeship.com/projects/8ee08ae0-7299-0132-9cb8-1e472470a5ab/status?branch=master)](https://codeship.com/projects/54824)
+
 ## Description
 Java library offering guard clauses via a fluent interface
 
@@ -6,30 +8,15 @@ Java library offering guard clauses via a fluent interface
 ```java
 import static io.github.chrisdostert.guardclauses.Guards.guardThat;
 
-public class AccountContactIdImpl {    
-    
-    /*snipped*/
-
-    /*
-    constructors
-     */
-    public AccountContactIdImpl(
-            String value
-    ) {
-
-        this.value =
+String someString =
                 guardThat(
-                        "accountContactId",
+                        "foobar",
                         value
                 )
                         .isNotNull()
-                        .hasCharacterLengthEqualTo(18)
+                        .hasCharacterLengthEqualTo(6)
                         .thenGetValue();
-    }
     
-    /*snipped*/
-}
-
 ```
 
 ## Maven Installation
