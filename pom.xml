@@ -8,6 +8,18 @@
     <artifactId>guard-clauses-for-java</artifactId>
     <version>0.0.1</version>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://opensource.org/licenses/Apache-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/chrisdostert/guard-clauses-for-java.git</url>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
