@@ -4,8 +4,6 @@ Java library offering guard clauses via a fluent interface
 ## Usage
 
 ```java
-/*snipped*/
-
 import static io.github.chrisdostert.guardclauses.Guards.guardThat;
 
 public class AccountContactIdImpl {    
