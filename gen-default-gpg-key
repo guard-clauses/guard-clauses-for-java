@@ -1,6 +1,6 @@
 %echo Generating a default key
 Key-Type: RSA
-Subkey-Type: RSA
+Key-Length: 2048
 Name-Real: ${gpg.name}
 Name-Email: ${gpg.email}
 Expire-Date: 0
