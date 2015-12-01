@@ -29,7 +29,6 @@ in pom.xml (release versions)
         <artifactId>guard-clauses-for-java</artifactId>
         <version>${guard-clauses-for-java.version}</version>
     </dependency>
-    ...
 </dependencies>
 ```
 
