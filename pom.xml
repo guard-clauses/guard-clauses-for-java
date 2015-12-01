@@ -128,9 +128,9 @@
     </properties>
 
     <scm>
-        <url>https://github.com/chrisdostert/guard-clauses-for-java</url>
-        <connection>scm:git:git://github.com/chrisdostert/guard-clauses-for-java.git</connection>
-        <developerConnection>scm:git:git://github.com/chrisdostert/guard-clauses-for-java.git</developerConnection>
+        <url>scm:git:git@github.com:chrisdostert/guard-clauses-for-java.git</url>
+        <connection>scm:git:git@github.com:chrisdostert/guard-clauses-for-java.git</connection>
+        <developerConnection>scm:git:git@github.com:chrisdostert/guard-clauses-for-java.git</developerConnection>
     </scm>
 
     <url>http://chrisdostert.github.io/guard-clauses-for-java/</url>
