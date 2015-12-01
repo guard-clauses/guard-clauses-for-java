@@ -25,7 +25,7 @@ in pom.xml (release versions)
 ```xml
 <dependencies>
     <dependency>
-        <groupId>io.github.chrisdostert.guardclauses</groupId>
+        <groupId>io.github.chrisdostert</groupId>
         <artifactId>guard-clauses-for-java</artifactId>
         <version>${guard-clauses-for-java.version}</version>
     </dependency>
