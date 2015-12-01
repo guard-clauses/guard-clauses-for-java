@@ -1,6 +1,7 @@
 %echo Generating a default key
 Key-Type: RSA
 Key-Length: 2048
+Keyserver: hkp://pgp.mit.edu
 Name-Real: ${gpg.name}
 Name-Email: ${gpg.email}
 Expire-Date: 0
