@@ -5,6 +5,8 @@
     <servers>
         <server>
             <id>ossrh</id>
+            <username>${ossrh.username}</username>
+            <passphrase>${ossrh.password}</passphrase>
         </server>
     </servers>
 </settings>
