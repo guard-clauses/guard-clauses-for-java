@@ -47,6 +47,11 @@ compile & unit test
 mvn verify
 ```
 
+prepare release
+```PowerShell
+mvn release:prepare
+```
+
 ## License
 
 This code is open source software licensed under the Apache 2.0 License.
