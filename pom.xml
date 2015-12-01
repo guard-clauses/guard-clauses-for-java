@@ -159,5 +159,11 @@
         <developerConnection>scm:git:git@github.com:chrisdostert/guard-clauses-for-java.git</developerConnection>
     </scm>
 
+    <settings>
+        <servers>
+            <id>ossrh</id>
+        </servers>
+    </settings>
+
     <url>http://chrisdostert.github.io/guard-clauses-for-java/</url>
 </project>
