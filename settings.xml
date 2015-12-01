@@ -6,7 +6,7 @@
         <server>
             <id>ossrh</id>
             <username>${ossrh.username}</username>
-            <passphrase>${ossrh.password}</passphrase>
+            <password>${ossrh.password}</password>
         </server>
     </servers>
 </settings>
