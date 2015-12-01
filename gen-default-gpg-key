@@ -3,6 +3,7 @@ Key-Type: RSA
 Key-Length: 2048
 Name-Real: ${gpg.name}
 Name-Email: ${gpg.email}
+Name-Comment: ${gpg.comment}
 Expire-Date: 0
 Passphrase: ${gpg.passphrase}
 %commit
