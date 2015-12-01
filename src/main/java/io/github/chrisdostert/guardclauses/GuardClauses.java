@@ -7,7 +7,7 @@ import org.checkerframework.checker.nullness.qual.Nullable;
  * Entry point for guard methods for different data types. Each method in this class is a static factory for
  * a data type specific guard object.
  */
-public class Guards {
+public class GuardClauses {
 
     public static <E> IterableGuard<E> guardThat(
             @NonNull String name,

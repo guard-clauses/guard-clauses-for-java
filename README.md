@@ -6,7 +6,7 @@ Java library offering guard clauses via a fluent interface
 ## Usage
 
 ```java
-import static io.github.chrisdostert.guardclauses.Guards.guardThat;
+import static io.github.chrisdostert.guardclauses.GuardClauses.guardThat;
 
 String someString =
                 guardThat(
@@ -42,7 +42,7 @@ in pom.xml (release versions)
 #### Scripts
 
 compile & unit test
-```PowerShell
+```Bash
 mvn verify
 ```
 
